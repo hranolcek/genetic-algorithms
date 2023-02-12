@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 def generate_population(pop_size, min_value, max_value):
     return [random.uniform(min_value, max_value) for i in range(pop_size)]
 
-# Funkcja obliczająca wartość fitness dla danego rozwiązania `soultion` na podstawie podanej funkcji
+# Funkcja obliczająca wartość fitness dla danego rozwiązania `solution` na podstawie podanej funkcji
 
 
 def evaluate_fitness(solution, function):
